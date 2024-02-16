@@ -1,0 +1,68 @@
+/* body style formatting!!!!!!! */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0; 
+    padding: 0; 
+    background-color: #f7f7f7;
+    background-image: url('ariana.jpeg');
+    background-repeat: repeat-y; 
+    background-size: contain;
+    color: #333; 
+}
+
+/* header n footer formatting!!!!!! */
+header, footer {
+    background-color:green; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0;
+}
+
+/*  main content formatting!!!!!! */
+main {
+    max-width: 750px;
+    margin: 30px auto; 
+    padding: 0 20px; 
+}
+
+/* sections formatting!!!!!!!!! */
+section {
+    margin-bottom: 20px; 
+    padding: 20px;
+    background-color: rgba(200, 200, 200, 0.8); 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* images formatting!!!!! */
+img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* formatting the headings!!!!!!!! */
+h1, h2 {
+    font-family: 'Playfair Display', serif; 
+    margin-bottom: 10px; 
+}
+
+/* formatting the paragraphs!!!!!!!!! */
+p {
+    margin-bottom: 20px; 
+}
+
+/* Hover effects!!!!!!!!*/
+section:hover {
+    transform: scale(1.05);
+}
+
+img:hover {
+    transform: rotate(5deg); 
+}
+
+h1:hover, h2:hover {
+    color: #ff6f61; 
+}
